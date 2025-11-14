@@ -9,7 +9,7 @@ jobs:
     - name: clone repo
       uses: action/checkout@v3
 
-    - name: setup-python
+    - name: setup python
       uses: actions/setup-python@v6
       with:
         python-version: '3.13' 
